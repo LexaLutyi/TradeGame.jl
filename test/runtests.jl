@@ -1,6 +1,9 @@
 using TradeGame
 using Test
+using Agents
 
-@testset "TradeGame.jl" begin
-    # Write your tests here.
+@testset "initialize_trade_game" begin
+    model = initialize_trade_game(1)
+
+    run!(model, ship_step!, 100)
 end
