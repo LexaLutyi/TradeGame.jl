@@ -1,7 +1,7 @@
 name = "TradeGame"
 uuid = "44bb7972-da25-4089-802e-d3afb760c9fe"
 authors = ["Samarin Aleksei <liotbiu1@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+version = "1.1.0-DEV"
 
 [deps]
 Agents = "46ada45e-f475-11e8-01d0-f70cc89e6671"

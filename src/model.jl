@@ -53,6 +53,8 @@ function initialize_trade_game(seed)
         cargo = 0
         money = 1000
         city = rand(model.rng, model.world.cities)
+        rest_timer = 3
+        rested = false
         ship = Ship(
             nextid(model), 
             pos, 
@@ -60,7 +62,9 @@ function initialize_trade_game(seed)
             color,
             city,
             cargo,
-            money 
+            money,
+            rest_timer,
+            rested
             )
         add_agent_pos!(ship, model)
     end
